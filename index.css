@@ -1,8 +1,66 @@
-#heading, h1{
-    color: darkgoldenrod;
-    background-color: black;
-} 
-
-#parent{
-    color: darkgoldenrod; 
+.header{
+ display: flex;
+ padding: 10px;
+ justify-content: space-between;
+ border: 2px solid black;
 }
+.logo{
+    height: 94px;
+    width: auto;
+}
+.nav-items {
+    font-size: 22px;
+}
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items>ul >li{
+     margin: 10px;
+     padding: 4px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    margin: 6px;
+    padding: 5px;
+    background: #aca0a0;
+    width: 210px;
+    text-align: start;
+}
+
+
+.res-card:hover {
+    cursor: pointer;
+    border: 2px solid rgb(255, 183, 0);
+
+}
+.search {
+    padding: 10px;
+    margin: 10px;
+}
+.res-logo{
+    width: 100%;
+    height: 130px;
+}
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+.home:hover{
+ color: coral;
+}
+.about:hover{
+    color: coral;
+   }
+   .contact:hover{
+    color: coral;
+   }
+   .cart:hover{
+    color: coral;
+   }
+   .heyram:hover{
+    color: coral;
+   }
